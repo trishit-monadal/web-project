@@ -1,0 +1,102 @@
+body {
+    overflow-x: hidden;
+  }
+
+  /* Define the blinking animation */
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Style the button */
+  .blink-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Apply blinking effect to the button's text */
+  .blink-button span {
+    animation: blink 1s infinite;
+  }
+
+  /* Add a hover effect for the button */
+  .blink-button:hover {
+    background-color: #2980b9;
+  }
+
+  a {
+    color: aliceblue !important;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-evenly !important;
+  }
+
+  .dropdown-item:hover {
+    background-color: black !important;
+  }
+
+  h3 {
+    background-color: #3b5998;
+    color: aliceblue;
+
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  form {
+    border: 10px solid #3b5998;
+    max-width: 400px;
+    padding: 20px;
+
+  }
+
+  input,
+  select{
+    width: 300px;
+    margin-left: 20px;
+
+  }
+  .shadow:hover {
+    box-shadow: 40px 40px 40px  rgba(19, 4, 4, 0.1)!important;
+  }
+
+  .button-right{
+    position: relative; 
+    left: 250px;
+  }
+  .butt{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:dimgray;
+    width: 100px;  
+    color: aliceblue;
+  }
+  .icon:hover{
+    background-color:#000 !important;
+  }
+  
+  
